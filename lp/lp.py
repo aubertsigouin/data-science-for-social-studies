@@ -29,7 +29,7 @@ for x in range(10):
         metastr += ' '.join(list(set(l)))
         file.close()
     
-l = []
+ll = []
 for x in range(len(list(set(metastr.split())))):
     if 'http://www.lapresse.ca/' in list(set(metastr.split()))[x] and 'archive' not in list(set(metastr.split()))[x]:
         ll.append(list(set(metastr.split()))[x])
