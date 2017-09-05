@@ -11946,7 +11946,7 @@ De plus, nous utiliserons le module newspaper, développé en open-source par Lu
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>                        <span class="c1"># Créer une variable &#39;x&#39; avec le nombre entier 10 comme valeur</span>
@@ -12002,7 +12002,7 @@ De plus, nous utiliserons le module newspaper, développé en open-source par Lu
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">urllib.request</span>
@@ -12036,7 +12036,7 @@ De plus, nous utiliserons le module newspaper, développé en open-source par Lu
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">newspaper</span>
@@ -12076,7 +12076,7 @@ De plus, nous utiliserons le module newspaper, développé en open-source par Lu
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">array_of_time</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="s1">&#39;2012-12-01&#39;</span><span class="p">,</span> <span class="s1">&#39;2013-07-01&#39;</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="s1">&#39;datetime64[D]&#39;</span><span class="p">))</span>
@@ -12121,7 +12121,7 @@ De plus, nous utiliserons le module newspaper, développé en open-source par Lu
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="n">array_of_time</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="c1"># Imprimer la première donnée de notre liste de date (liste[index])</span>
@@ -12150,7 +12150,7 @@ De plus, nous utiliserons le module newspaper, développé en open-source par Lu
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="n">array_of_time</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">year</span><span class="p">)</span> <span class="c1"># Imprimer des attributs de classe &#39;DATE&#39; avec notre variable formaté</span>
@@ -12185,7 +12185,7 @@ Saturday
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;2012-12-01 00:00:00&#39;</span><span class="o">.</span><span class="n">year</span><span class="p">)</span> <span class="c1"># Essayer de faire une même fonction avec la chaîne de caractère</span>
@@ -12204,7 +12204,7 @@ Saturday
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">AttributeError</span>                            Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-12-c3a0f6347e97&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-fg">&lt;ipython-input-9-c3a0f6347e97&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
 <span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>print <span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;2012-12-01 00:00:00&#39;</span><span class="ansi-blue-fg">.</span>year<span class="ansi-blue-fg">)</span> <span class="ansi-red-fg"># Essayer de faire une même fonction avec la chaîne de caractère</span>
 
 <span class="ansi-red-fg">AttributeError</span>: &#39;str&#39; object has no attribute &#39;year&#39;</pre>
@@ -12285,7 +12285,7 @@ http://www.lapresse.ca/ archives / années / mois / jour . php
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">archives_url</span> <span class="o">=</span> <span class="p">[]</span>
@@ -12309,7 +12309,7 @@ http://www.lapresse.ca/ archives / années / mois / jour . php
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">array_of_time</span><span class="p">)):</span>   <span class="c1"># Pour tout les éléments de la liste, </span>
@@ -12320,27 +12320,6 @@ http://www.lapresse.ca/ archives / années / mois / jour . php
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-14-b80ebe601513&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">      3</span>     month <span class="ansi-blue-fg">=</span> array_of_time<span class="ansi-blue-fg">[</span>x<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">.</span>month
-<span class="ansi-green-intense-fg ansi-bold">      4</span>     year <span class="ansi-blue-fg">=</span> array_of_time<span class="ansi-blue-fg">[</span>x<span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">.</span>year
-<span class="ansi-green-fg">----&gt; 5</span><span class="ansi-red-fg">     </span>archives_url<span class="ansi-blue-fg">.</span>append<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;{}/{}/{}/{}{}&#39;</span><span class="ansi-blue-fg">.</span>format<span class="ansi-blue-fg">(</span>root_url<span class="ansi-blue-fg">,</span>year<span class="ansi-blue-fg">,</span>month<span class="ansi-blue-fg">,</span>day<span class="ansi-blue-fg">,</span>url_end<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span> <span class="ansi-red-fg"># Stocker l&#39;URL dans la nouvelle liste</span>
-
-<span class="ansi-red-fg">NameError</span>: name &#39;root_url&#39; is not defined</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -12570,7 +12549,7 @@ http://www.lapresse.ca/ archives / années / mois / jour . php
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># print(source_code.prettify) </span>
